@@ -2,7 +2,7 @@ import React from 'react'
 import SettingsItem from './SettingsItem';
 import { WORK_MINUTES, BREAK_MINUTES } from '../../common/Constants';
 import { IItemLocalData } from 'src/types/PropsTypes';
-import settings from '../../modules/settings.module.scss'
+
 
 
 const SettingsPage: React.FC<IItemLocalData> = ({ dataValue, dataValueSecond, changeDataValue, changeDataValueSecond }) => {
