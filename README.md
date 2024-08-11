@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Timer
+-useRef is used to store the current state
+-useEffect to start a timer when states change
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+basic functions and constants for calculations
 
-Currently, two official plugins are available:
+<img width="500" alt="timer" src="https://github.com/user-attachments/assets/ddd6d87d-e654-4a8a-a187-804f0d0800f7">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## workTime and breakTime
+are specified in minutes.
+The time in seconds for the current mode is calculated by multiplying the number of minutes by 60.
 
-## Expanding the ESLint configuration
+## tick
+created to decrease the number of seconds remaining
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## switchMode:
+Switches the mode between work and break, calculates the number of seconds for the new mode, and updates the mode and seconds states.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+ ## React and React DOM:
+Core libraries for building the user interface. React provides a component-based architecture, while React DOM handles rendering those components in the browser.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## React-circular-progressbar:
+A React component for displaying progress bars in a circular format. It’s used to visually represent time remaining or progress toward a goal.
+
+## React-icons: 
+A library of customizable icons used throughout the application to enhance the UI and provide visual cues.
+
+## React-slider: 
+A React component for creating sliders, which allows users to set time intervals or other adjustable settings within the application.
+
+## Sass and SCSS: 
+CSS preprocessors that provide advanced styling features like variables, nesting, and mixins. They help create modular and maintainable stylesheets.
+
+## TypeScript:
+type definitions for React and React DOM, ensuring type safety and better development experience.
+
+## Vite: 
+A fast build tool and development server that speeds up the development process with features like hot module replacement and optimized builds.
