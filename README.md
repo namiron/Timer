@@ -4,7 +4,8 @@
 
 basic functions and constants for calculations
 
-<img width="500" alt="timer" src="https://github.com/user-attachments/assets/ddd6d87d-e654-4a8a-a187-804f0d0800f7">
+<img width="959" alt="timer" src="https://github.com/user-attachments/assets/2dd418b5-101e-4ccb-8a8d-255bb552d20e">
+
 
 ## workTime and breakTime
 are specified in minutes.
