@@ -1,62 +1,60 @@
 .settings {
-    background: transparent;
-    border: transparent;
-    cursor: pointer;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
 }
 
-
-
 .settingsIcon {
-    font-size: 50px;
-    transition: all 0.3s ease 0s;
+  color: #fff;
+  font-size: 50px;
+  transition: all 0.3s ease 0s;
 }
 
 //-------------------------------------------settingsPage
 
-
-
 //---------------------------------------------------/settingsPage
 
-
-
 //----------------------------------------------settingsItem
-.settingsItem {}
+.settingsItem {
+}
 
-.minutes {}
+.minutes {
+}
 
 //--------------------------slider
 .sliderRed {
-    height: 40px;
-    border: 2px solid RED;
-    border-radius: 20px;
+  height: 40px;
+  border: 2px solid RED;
+  border-radius: 20px;
 }
 
-.trackRed {}
+.trackRed {
+}
 
 .thumbRed {
-    background: RED;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+  background: RED;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .sliderGreen {
-    height: 40px;
-    border: 2px solid GREEN;
-    border-radius: 20px;
+  height: 40px;
+  border: 2px solid GREEN;
+  border-radius: 20px;
 }
 
-.trackGreen {}
+.trackGreen {
+}
 
 .thumbGreen {
-    background: GREEN;
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+  background: GREEN;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
-
 
 //--------------------------slider
 
